@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Company</title>
+ 
+    <!-- 반응형 웹 만들기 -->
+    <!-- 1. 모바일용 css -->
+    <link rel="stylesheet" href="./company_mobile.css" media="(max-width:600px)">
+ 
+    <!-- 2. 데스크탑용 외부 스타일시트 적용 -->
+    <link rel="stylesheet" href="./company.css" media="(min-width:600px)">
+</head>
+<body>
+    
+    <div id="page">
+ 
+        <header>
+            <div id="logo">
+                <img src="./image/Logo.png" alt="로고">
+            </div>
+ 
+            <div id="top_menu">
+                <a href="#" onclick="location.href='index.html'">HOME</a> |
+                <a href="#" onclick="location.href='welcome.html'">WELCOME</a> |
+                <a href="#" onclick="location.href='login.php'">LOGIN</a> |
+                <a href="#" onclick="location.href='sign_up.php'">JOIN</a>
+            </div>
+ 
+            <nav>
+                <ul>
+                    <li><a href="# "onclick="location.href='home.php'">게시판</a></li>
+                    <li><a href="#" onclick="location.href='goget.html'">고객센터</a></li>
+                </ul>
+            </nav>
+ 
+        </header>
+ 
+        <article id="content">
+            <section id="main">
+                <img src="./image/Index.jpg" alt="메인 이미지">
+            </section>
+            <section>
+                <ul id="banner">
+                    <li><a href="#"><img src="./image/banner1.jpg" alt="banner1"></a></li>
+                    <li><a href="#"><img src="./image/banner2.jpg" alt="banner2"></a></li>
+                </ul>
+ 
+            </section>
+ 
+        </article>
+ 
+        <footer>
+            <img src="./image/Copy.jpg" alt="Copyright">
+        </footer>
+ 
+    </div>
+</body>
+</html>
